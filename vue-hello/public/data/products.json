@@ -1,0 +1,23 @@
+[
+    { "id": 1, "name": "苹果手机", "price": 5999, "imageUrl": "https://via.placeholder.com/150", "description": "这是一款高性能的智能手机。" },
+    { "id": 2, "name": "华为手机", "price": 4999, "imageUrl": "https://via.placeholder.com/150", "description": "华为最新款旗舰手机，功能强大。" },
+    { "id": 3, "name": "小米手机", "price": 2999, "imageUrl": "https://via.placeholder.com/150", "description": "性价比高的智能手机，适合大众用户。" },
+    { "id": 4, "name": "三星手机", "price": 3999, "imageUrl": "https://via.placeholder.com/150", "description": "顶级配置，流畅体验。" },
+    { "id": 5, "name": "OPPO手机", "price": 2599, "imageUrl": "https://via.placeholder.com/150", "description": "时尚外观，优秀拍照能力。" },
+    { "id": 6, "name": "Vivo手机", "price": 3199, "imageUrl": "https://via.placeholder.com/150", "description": "适合年轻用户，自拍效果极佳。" },
+    { "id": 7, "name": "索尼手机", "price": 3699, "imageUrl": "https://via.placeholder.com/150", "description": "专业拍照，影音效果出色。" },
+    { "id": 8, "name": "Google Pixel", "price": 4299, "imageUrl": "https://via.placeholder.com/150", "description": "原生Android体验，拍照效果卓越。" },
+    { "id": 9, "name": "诺基亚手机", "price": 1499, "imageUrl": "https://via.placeholder.com/150", "description": "经典回归，稳定耐用。" },
+    { "id": 10, "name": "魅族手机", "price": 2799, "imageUrl": "https://via.placeholder.com/150", "description": "简单易用，性能可靠。" },
+    { "id": 11, "name": "一加手机", "price": 3999, "imageUrl": "https://via.placeholder.com/150", "description": "流畅体验，极简设计。" },
+    { "id": 12, "name": "黑莓手机", "price": 4999, "imageUrl": "https://via.placeholder.com/150", "description": "经典商务手机，注重安全性。" },
+    { "id": 13, "name": "摩托罗拉手机", "price": 2899, "imageUrl": "https://via.placeholder.com/150", "description": "设计独特，性价比高。" },
+    { "id": 14, "name": "乐视手机", "price": 999, "imageUrl": "https://via.placeholder.com/150", "description": "经济实惠，适合入门用户。" },
+    { "id": 15, "name": "中兴手机", "price": 1999, "imageUrl": "https://via.placeholder.com/150", "description": "不错的性能，适合日常使用。" },
+    { "id": 16, "name": "HTC手机", "price": 3499, "imageUrl": "https://via.placeholder.com/150", "description": "音质出色，体验优雅。" },
+    { "id": 17, "name": "荣耀手机", "price": 2699, "imageUrl": "https://via.placeholder.com/150", "description": "出色的性价比，适合年轻人。" },
+    { "id": 18, "name": "Realme手机", "price": 2199, "imageUrl": "https://via.placeholder.com/150", "description": "主打性价比，功能丰富。" },
+    { "id": 19, "name": "酷派手机", "price": 1799, "imageUrl": "https://via.placeholder.com/150", "description": "坚固耐用，性价比高。" },
+    { "id": 20, "name": "锤子手机", "price": 3999, "imageUrl": "https://via.placeholder.com/150", "description": "独特设计，注重用户体验。" }
+  ]
+  

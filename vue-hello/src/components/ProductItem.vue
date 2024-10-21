@@ -19,7 +19,6 @@
         <p>价格：{{ product.price }} 元</p>
         <p>详细信息：{{ product.description }}</p>
         
-
         <!-- 数量选择 -->
         <div class="quantity-selector">
           <button @click="decreaseQuantity" class="quantity-button">-</button>
@@ -122,7 +121,7 @@ export default {
           await this.viewCart(userId);
           cartId = localStorage.getItem('cartId');
         }
-        // 使用查询参数传递 productId 和 quantity
+        // 使用查询参数传递 productId 和 quantity，null表示请求体为空，post需要请求体的输入
         const response = await axios.post(`http://localhost:8080/cart/${cartId}/add`, null, {
           params: {
             productId: this.product.id,

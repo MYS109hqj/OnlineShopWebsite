@@ -54,7 +54,7 @@ public class SalesReportService {
         LocalDateTime previousWeekStart = weekStart.minusWeeks(1);
         LocalDateTime previousWeekEnd = weekStart.minusDays(1); // 上周的结束日期
         LocalDateTime nextWeekStart = weekStart.plusWeeks(1);
-        LocalDateTime nextWeekEnd = weekStart.plusDays(6); // 下周的结束日期
+        LocalDateTime nextWeekEnd = nextWeekStart.plusDays(6); // 下周的结束日期
 
         Map<String, Object> currentWeekReport = generateSalesReport(merchantId, weekStart.toString(), weekEnd.toString());
         Map<String, Object> previousWeekReport = generateSalesReport(merchantId, previousWeekStart.toString(), previousWeekEnd.toString());

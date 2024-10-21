@@ -144,11 +144,12 @@ export default {
         }
     },
     async register() {
+        // 要求在两个框中输入密码，确认密码
         if (this.password !== this.confirmPassword) {
             alert('两次输入的密码不一致！');
             return;
         }
-
+        // 确认用户名和密码都不为空
         if (this.username && this.password) {
             try {
                 console.log(this.email);
@@ -161,6 +162,7 @@ export default {
                 // 存储用户信息到 localStorage
                 localStorage.setItem('userId', response.data.userId); // 存储用户 ID
                 alert('注册成功，请登录');
+                // 注册与登录组件的切换由this.isLoginMode值的变换实现
                 this.isLoginMode = true;
             } catch (error) {
                 alert('注册失败，请重试');

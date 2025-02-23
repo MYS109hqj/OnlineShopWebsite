@@ -11,6 +11,7 @@ IDE：Visual Studio Code
 Node.js 版本：10.2.4
 MySQL 版本：9.0.1
 Java 版本：22.0.2
+
 服务器环境：
 
 操作系统：CentOS 7 Linux
